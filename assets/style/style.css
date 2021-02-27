@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Stick&display=swap");
+* {
+  box-sizing: border-box;
+}
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #9ad3bc;
+  text-align: center;
+}
+head {
+  display: flexbox;
+  float: inline-start;
+  padding: 20px;
+  color: white;
+  background-color: #9ad3bc;
+}
+.headnote {
+  color: white;
+  text-shadow: 4px 4px 3px #679b9b;
+  font-weight: bold;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+nav {
+  background-color: #ec524b;
+  font-weight: bolder;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 50px;
+}
+nav a {
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #03506f;
+}
+nav a:visited {
+  color: white;
+}
+nav a:hover {
+  color: #ff9a76;
+  font-weight: bolder;
+}
+h1 {
+  color: #637373;
+  font-size: xx-large;
+  font-weight: bold;
+  font: 3em sans-serif;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+}
+h2 {
+  color: #03506f;
+  font-size: larger;
+}
+h3 {
+  color: #679b9b;
+  font-size: large;
+}
+q {
+  text-shadow: 4px 4px 3px #679b9b;
+}
+p {
+  color: #679b9b;
+  font-weight: 500;
+  text-align: justify;
+}
+main {
+  float: left;
+  padding: 20px;
+  background-color: #ffeadb;
+  text-align: justify;
+}
+.feature-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.profile img {
+  width: 200px;
+  object-position: center;
+  border-image-width: auto;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+footer {
+  padding: 20px;
+  background-color: #ec524b;
+  text-align: center;
+  font-weight: bold;
+  clear: both;
+}
+.footerfont {
+  color: white;
+}
+aside {
+  /* float: right;
+  width: 30%;
+  padding-left: 0px;
+  font-size: xx-small; */
+
+  display: none;
+}
+section#content {
+  float: right;
+  height: 250px;
+  width: 70%;
+}
+.container {
+  display: flex;
+}
+header {
+  padding: 20px;
+  color: white;
+  background-color: #9ad3bc;
+}
+
+/* .feature-img {
+  width: 50%;
+} */
+
+/* For mobile phones: */
+.feature-img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .feature-img {
+    width: 75%;
+  }
+
+  aside {
+    display: block;
+    float: right;
+    width: 30%;
+    padding-left: 0px;
+    font-size: xx-small;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .feature-img {
+    width: 50%;
+  }
+}
